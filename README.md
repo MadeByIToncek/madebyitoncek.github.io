@@ -1,6 +1,7 @@
 # Vinetos.fr
 
 This is the project which contains the website of Vinetos. Currently In-dev : [vinetos.fr](https://www.vinetos.fr)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a30eeb29-412a-4f66-91f1-f3be92d33092/deploy-status)](https://app.netlify.com/sites/practical-curie-16b50f/deploys)
 
 ## Install for dev
 
