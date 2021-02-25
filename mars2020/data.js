@@ -54,7 +54,7 @@ var APP_DATA = {
           "yaw": 0.6555029901708416,
           "pitch": 0.4468494606250566,
           "title": "High - Gain Antenna",
-          "text": "Přenáší data pčímo na zemi"
+          "text": "Přenáší data přímo na zemi"
         },
         {
           "yaw": 0.5838100058360993,
