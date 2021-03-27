@@ -1,0 +1,99 @@
+@import "fonts.css";
+
+body
+{
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+}
+
+li
+{
+    display: inline;
+}
+
+h1
+{
+    font-family: "Roboto-Th";
+}
+
+button
+{
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+a
+{
+    font-family: "Roboto-Th";
+    color: rgb(190, 144, 144);
+    font-size: 20px;
+    text-decoration: solid;
+    float: right;
+    padding: 10px;
+}
+
+#font_impact
+{
+    font-family: "Impact";
+}
+
+#font_Roboto_Thin
+{
+    font-family: "Roboto-Th";
+}
+
+#font_Arial
+{
+    font-family: "Arial";
+}
+
+#nav
+{
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+}
+
+#tw_btn
+{
+    background-color: rgb(85, 0, 141);
+    color: rgb(255, 255, 255);
+}
+
+#yt_btn
+{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#fb_btn
+{
+    background-color: rgb(121, 135, 173);
+    color: rgb(255, 255, 255);
+}
+
+#title
+{
+    font-size: 2.7em;
+}
+
+#second_div
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Impact";
+    font-size: 3em;
+    padding: 5px;
+}
+
+#text
+{
+    font-family: "Arial";
+    font-size: 23px;
+}
+
+#first_div
+{
+    height: 600px;
+}
