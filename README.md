@@ -6,6 +6,9 @@
   <a href="https://twitter.com/ytoncek" target="_blank">
     <img alt="Twitter: ytoncek" src="https://img.shields.io/twitter/follow/ytoncek.svg?style=social" />
   </a>
+  <a href="https://app.netlify.com/sites/itoncek/deploys" target="_blank">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/a30eeb29-412a-4f66-91f1-f3be92d33092/deploy-status" />
+  </a>
 </p>
 
 > Repo for itoncek.cf
