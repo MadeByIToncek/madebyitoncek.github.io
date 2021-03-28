@@ -1,58 +1,42 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a30eeb29-412a-4f66-91f1-f3be92d33092/deploy-status)](https://app.netlify.com/sites/itoncek/deploys)
+<h1 align="center">Welcome to madebyitoncek.github.io 👋</h1>
+<p>
+  <a href="https://mit-license.org/" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/ytoncek" target="_blank">
+    <img alt="Twitter: ytoncek" src="https://img.shields.io/twitter/follow/ytoncek.svg?style=social" />
+  </a>
+  <a href="https://app.netlify.com/sites/itoncek/deploys" target="_blank">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/a30eeb29-412a-4f66-91f1-f3be92d33092/deploy-status" />
+  </a>
+</p>
 
+> Repo for itoncek.cf
 
+### 🏠 [Homepage](itoncek.cf)
 
-# Vinetos.fr
+### ✨ [Demo](itoncek.cf)
 
-This is the project which contains the website of Vinetos. Currently In-dev : [vinetos.fr](https://www.vinetos.fr)
-## Install for dev
+## Author
 
-```sh
-git clone https://github.com/Vinetos/Vinetos.fr
-cd Vinetos.fr
-npm install
-npm start
-```
+👤 **MadeByIToncek**
 
-As long as `npm start` is running, it will **watch** your changes. You can edit `_sass/main.scss` and `_javascript/main.js` at will. Changes are **immediately** compiled to their destinations, where `index.html` will pick them up upon reload in your browser.
+* Website: http://itoncek.cf
+* Twitter: [@ytoncek](https://twitter.com/ytoncek)
+* Github: [@MadeByIToncek](https://github.com/MadeByIToncek)
 
-Some controlling output is written to the `npm start` console in that process:
+## 🤝 Contributing
 
-```sh
-_javascript/main.js -> lib/main.js
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MadeByIToncek/madebyitoncek.github.io/issues). 
 
-=> changed: $HOME/projects/start-with-bulma/_sass/main.scss
-Rendering Complete, saving .css file...
-Wrote CSS to $HOME/projects/start-with-bulma/css/main.css
-```
+## Show your support
 
-Use `npm run` to show all available commands:
+Give a ⭐️ if this project helped you!
 
-```sh
-Lifecycle scripts included in bulma-start:
-  start
-    npm-run-all --parallel css-watch js-watch
+## 📝 License
 
-available via `npm run-script`:
-  css-build
-    node-sass _sass/main.scss css/main.css
-  css-deploy
-    npm run css-build && npm run css-postcss
-  css-postcss
-    postcss --use autoprefixer --output css/main.css css/main.css
-  css-watch
-    npm run css-build -- --watch
-  deploy
-    npm run css-deploy && npm run js-build
-  js-build
-    babel _javascript --out-dir lib
-  js-watch
-    npm run js-build -- --watch
-```
+Copyright © 2021 [MadeByIToncek](https://github.com/MadeByIToncek).<br />
+This project is [MIT](https://mit-license.org/) licensed.
 
-If you want to learn more, follow these links: [Bulma homepage](http://bulma.io) and [Documentation](http://bulma.io/documentation/overview/start/).
-
-
-## Copyright and license
-
-Code copyright 2019 Chassignol Valentin. Code released under [the MIT license](https://github.com/Vinetos/Vinetos.fr/blob/master/LICENSE).
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
