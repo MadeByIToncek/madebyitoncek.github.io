@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
