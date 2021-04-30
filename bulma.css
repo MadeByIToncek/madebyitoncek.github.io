@@ -1,7 +1,6 @@
 * {
-  border: 0px solid red
+  scroll-behavior: smooth;
 }
-
 
 .has-same-height .card {
   height: 320px;
@@ -54,3 +53,9 @@ th {
   background-size:  cover;
   background-color: #999;
 }
+
+.img-responsive {
+    display: block; 
+    max-width: 100%;
+    height: auto;
+ } 
