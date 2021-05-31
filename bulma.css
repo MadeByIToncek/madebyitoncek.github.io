@@ -1,9 +1,9 @@
 * {
   scroll-behavior: smooth;
 }
-
-.has-same-height .card {
-  height: 431px;
+.card .card-image,
+.has-same-height .card .card-image .image img{
+  height: 320px; 
   overflow: hidden;
 }
 
