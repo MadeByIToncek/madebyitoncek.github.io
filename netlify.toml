@@ -2,3 +2,8 @@
   from = "/arc-sw.js"
   to = "https://arc.io/arc-sw.js"
   status = 200
+  
+[[redirects]]
+  from = "/zatmeni"
+  to = "https://youtu.be/3XJz9aw2k4k"
+  status = 200
