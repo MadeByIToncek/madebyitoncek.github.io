@@ -1,0 +1,59 @@
+baseURL = 'http://example.org/'
+languageCode = "en"
+DefaultContentLanguage = "en" # Change this to change the site's language
+title = 'ITONCEK.SPACE'
+theme = 'hugo.386'
+preserveTaxonomyNames = true
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "ITONCEK.SPACE"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "Repository of IToncek's work." 
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "This page is directed for artistic work, for programming, check out GitHub / GitLab. Links on the bottom of this page"
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "IToncek"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = "IToncek"
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Urls for social networks
+    facebook = "https://www.facebook.com/ajToncek/"
+    youtube = "https://www.youtube.com/@ajtoncek"
+    twitter = "https://twitter.com/ajToncek"
+    github = "https://github.com/MadeByIToncek"
+    gitlab = "https://gitlab.com/MadeByIToncek"
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 3
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = true
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
