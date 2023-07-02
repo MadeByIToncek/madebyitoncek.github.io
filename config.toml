@@ -1,4 +1,4 @@
-baseURL = 'http://itoncek.space/'
+baseURL = 'https://itoncek.space/'
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 title = 'ITONCEK.SPACE'
