@@ -6,37 +6,37 @@
 [[redirects]]
   from = "/zatmeni"
   to = "https://youtu.be/3XJz9aw2k4k"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/beta"
   to = "https://deploy-preview-3--itoncek.netlify.app/"
-  status = 200
+  status = 301
   
 [[redirects]]
   from = "/zatmeni"
   to = "https://youtu.be/3XJz9aw2k4k"
-  status = 200
+  status = 301
     
 [[redirects]]
   from = "/oxikomania"
   to = "https://discord.gg/wG9trXHZBv"
-  status = 200
+  status = 301
    
 [[redirects]]
   from = "/sts107"
   to = "https://astrocrew.itoncek.cf/sts107/"
-  status = 200
+  status = 301
     
 [[redirects]]
   from = "/youtube"
   to = "https://www.youtube.com/@ajtoncek"
-  status = 200
+  status = 301
   
 [[redirects]]
   from = "/scenar"
-  to = "https://docs.google.com/document/d/16sIE1j451duNOz8RtCpYwUFpMnGL9H0QvkQQaxA2y5g/edit?usp=sharing"
-  status = 200
+  to = "https://1url.cz/v1Je0"
+  status = 301
 
 [build]
 publish = "public"
@@ -72,4 +72,4 @@ HUGO_ENABLEGITINFO = "true"
 [[redirects]]
 from = "/npmjs/*"
 to = "/npmjs/"
-status = 200
+status = 301
