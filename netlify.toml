@@ -32,6 +32,11 @@
   from = "/youtube"
   to = "https://www.youtube.com/@ajtoncek"
   status = 200
+  
+[[redirects]]
+  from = "/scenar"
+  to = "https://docs.google.com/document/d/16sIE1j451duNOz8RtCpYwUFpMnGL9H0QvkQQaxA2y5g/edit?usp=sharing"
+  status = 200
 
 [build]
 publish = "public"
