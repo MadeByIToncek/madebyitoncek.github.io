@@ -34,8 +34,23 @@
   status = 301
   
 [[redirects]]
-  from = "/scenar"
+  from = "/scenar_old"
   to = "https://1url.cz/v1Je0"
+  status = 301
+  
+[[redirects]]
+  from = "/scenar"
+  to = "https://cdn.itoncek.space/scenar_new.pdf"
+  status = 301
+  
+[[redirects]]
+  from = "/scenar_html"
+  to = "https://cdn.itoncek.space/scenar_new.html"
+  status = 301
+  
+[[redirects]]
+  from = "/scenar_fdx"
+  to = "https://cdn.itoncek.space/scenar_new.fdx"
   status = 301
 
 [build]
