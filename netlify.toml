@@ -52,6 +52,11 @@
   from = "/scenar_fdx"
   to = "https://cdn.itoncek.space/scenar_new.fdx"
   status = 301
+  
+[[redirects]]
+  from = "/nlcmonitor.ps1"
+  to = "https://github.com/MadeByIToncek/NLCMonitor/raw/master/install.ps1"
+  status = 200
 
 [build]
 publish = "public"
