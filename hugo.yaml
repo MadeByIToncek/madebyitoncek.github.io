@@ -6,8 +6,14 @@ theme: PaperMod
 enableRobotsTXT: true
 
 minify:
-  disableXML: true
+  disableXML: false
   minifyOutput: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+copyright: © 2024 IToncek
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -20,6 +26,7 @@ params:
   DateFormat: "02. 01. 2024"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
+  ShowCodeCopyButtons: true
 
   # profile-mode
   profileMode:
@@ -37,17 +44,17 @@ params:
         url: tags
 
   socialIcons:
-    - name: x
-      url: "https://x.com/ajToncek"
     - name: instagram
       url: "https://www.instagram.com/itoncek/"
+    - name: email
+      url: "mailto:itoncek@itoncek.space"
+    - name: x
+      url: "https://x.com/ajToncek"
     - name: github
       url: "https://github.com/MadeByIToncek"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    responsiveImages: true
 
   editPost:
     URL: "https://github.com/MadeByIToncek/madebyitoncek.github.io/tree/main/content/"
@@ -56,6 +63,10 @@ params:
 
 menu:
   main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
@@ -64,14 +75,19 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 30
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+outputs:
+  home:
+  - html
+  - rss
+  section:
+  - html
+  - rss
+  taxonomy:
+  - html
+  term:
+  - html
