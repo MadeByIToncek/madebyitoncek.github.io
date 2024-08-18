@@ -1,0 +1,77 @@
+baseURL: "https://itoncek.space/"
+title: IToncek.space
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: IToncek.space
+  description: "Personal blog 'n stuff"
+  keywords: [IToncek]
+  author: IToncek
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "02. 01. 2024"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: IToncek's blog
+    subtitle: "or something, I don't really know"
+    imageUrl: "https://cdn.discordapp.com/avatars/580098459802271744/c0b662788cc184d4a7e3fb900df1fe19.webp?size=256"
+    imageWidth: 256
+    imageHeight: 256
+    imageTitle: my pfp
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/ajToncek"
+    - name: instagram
+      url: "https://www.instagram.com/itoncek/"
+    - name: github
+      url: "https://github.com/MadeByIToncek"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/MadeByIToncek/madebyitoncek.github.io/tree/main/content/"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
