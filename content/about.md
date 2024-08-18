@@ -2,8 +2,8 @@
 title = "About"
 description = "\"People are like computers, if you throw them too hard, they'll not work\""
 date = "2019-02-28"
-aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+aliases = ["about-me","contact"]
+author = "IToncek"
 +++
 
 I'm iToncek,
