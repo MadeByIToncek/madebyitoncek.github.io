@@ -93,3 +93,8 @@ HUGO_ENABLEGITINFO = "true"
 from = "/npmjs/*"
 to = "/npmjs/"
 status = 301
+
+[[redirects]]
+from = "/walmat/sponzori"
+to = "https://docs.google.com/spreadsheets/d/1aALoJM19svLXH6vQnTALE0lbSGt4bnCVo3MfxwoHnPA/edit?usp=sharing"
+status = 301
