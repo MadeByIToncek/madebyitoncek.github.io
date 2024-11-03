@@ -98,3 +98,9 @@ status = 301
 from = "/walmat/sponzori"
 to = "https://docs.google.com/spreadsheets/d/1aALoJM19svLXH6vQnTALE0lbSGt4bnCVo3MfxwoHnPA/edit?usp=sharing"
 status = 301
+
+
+[[redirects]]
+from = "/iql/feustel"
+to = "https://iqlandia.cz/co-se-u-nas-deje/iqcafe-andrew-feustel"
+status = 301
