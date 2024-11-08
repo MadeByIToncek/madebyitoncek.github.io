@@ -106,7 +106,7 @@ to = "https://iqlandia.cz/co-se-u-nas-deje/iqcafe-andrew-feustel"
 status = 301
 
 [[redirects]]
-from = "/walmat/sponzori"
+from = "/walmat/serpokecy"
 to = "https://docs.google.com/spreadsheets/d/10LKpCy9aAWNVTsK_6eHQxDvArTmN369r7YR2gnfbB4Q/edit?usp=drivesdk"
 status = 301
 
