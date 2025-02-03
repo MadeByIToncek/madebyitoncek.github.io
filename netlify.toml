@@ -110,3 +110,8 @@ from = "/walmat/serpokecy"
 to = "https://docs.google.com/spreadsheets/d/10LKpCy9aAWNVTsK_6eHQxDvArTmN369r7YR2gnfbB4Q/edit?usp=drivesdk"
 status = 301
 
+[[redirects]]
+from = "/walmat/serpovani"
+to = "https://waldorfsemilycz-my.sharepoint.com/:p:/g/personal/antonin_vrestal_waldorf_semily_cz/EbxzYmP58KJLshTYavp-vv4BYVxZ5z_t8diT8XLKmwhtCA?e=tOatmu"
+status = 301
+
