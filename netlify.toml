@@ -115,3 +115,8 @@ from = "/walmat/serpovani"
 to = "https://waldorfsemilycz-my.sharepoint.com/:p:/g/personal/antonin_vrestal_waldorf_semily_cz/EbxzYmP58KJLshTYavp-vv4BYVxZ5z_t8diT8XLKmwhtCA?e=tOatmu"
 status = 301
 
+[[redirects]]
+from = "/walmat/predtanceni2"
+to = "https://youtu.be/-6z9x-E9W5w"
+status = 301
+
