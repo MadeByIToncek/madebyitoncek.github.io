@@ -17,7 +17,6 @@ taxonomies:
 copyright: © 2024 IToncek
 
 params:
-  social: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: IToncek.space
   description: "Personal blog 'n stuff"
