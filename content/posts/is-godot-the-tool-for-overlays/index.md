@@ -1,8 +1,8 @@
 +++
-categories = ['Internal']
-tags = ['Internal messages']
+categories = ['Cool stuff']
+tags = ['Streaming', 'Godot', 'Development']
 title = 'Is Godot *the* tool for overlays?'
-date = 2025-03-02T17:55:50+01:00
+date = 2025-03-02T20:00:00+01:00
 cover.image = "/posts/is-godot-the-tool-for-overlays/images/questionare_demo.png"
 cover.alt = "One of my tools, that I made in Godot to help me broadcast"
 cover.caption = "A tool, which I made for iQLANDIA"
