@@ -35,7 +35,7 @@ params:
     enabled: true # needs to be explicitly set
     title: IToncek's blog
     subtitle: "or something, I don't really know"
-    imageUrl: "https://cdn.discordapp.com/avatars/580098459802271744/c0b662788cc184d4a7e3fb900df1fe19.webp?size=256"
+    imageUrl: "https://cdn.discordapp.com/avatars/580098459802271744/c0b662788cc184d4a7e3fb900df1fe19.webp?size=1024"
     imageWidth: 256
     imageHeight: 256
     imageTitle: my pfp
