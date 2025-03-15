@@ -88,3 +88,5 @@ So what is the solution? Godot's UI system. You can set Godot to transparent bac
 >}}
 
 So that's it, that's how I do my stuff. Thanks for reading until the end, sorry for any spelling/grammar mistakes and have a nice day 👋
+
+UPDATE (16.3.): Small reminder for anyone trying to use my stuff for commercial/non-commercial usecases. Please read the README.MD file of the project before using. There are some rules to keep in mind while running this software in production/development environment. 
