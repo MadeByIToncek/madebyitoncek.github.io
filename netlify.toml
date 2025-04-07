@@ -120,3 +120,8 @@ from = "/walmat/predtanceni2"
 to = "https://youtu.be/-6z9x-E9W5w"
 status = 301
 
+[[redirects]]
+from = "/walmaturita/matika"
+to = "https://waldorfsemilycz-my.sharepoint.com/:w:/g/personal/antonin_vrestal_waldorf_semily_cz/EUd0C6QOdttLo9a09e6lIxMBUNwajMrWRmyp56FIz9rrBw?e=n0RrTP"
+status = 301
+
