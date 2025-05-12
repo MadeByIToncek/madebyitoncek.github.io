@@ -125,3 +125,8 @@ from = "/walmaturita/matika"
 to = "https://waldorfsemilycz-my.sharepoint.com/:w:/g/personal/antonin_vrestal_waldorf_semily_cz/EUd0C6QOdttLo9a09e6lIxMBUNwajMrWRmyp56FIz9rrBw?e=n0RrTP"
 status = 301
 
+[[redirects]]
+from = "/maturita/strava"
+to = "https://docs.google.com/spreadsheets/d/1M3RA_9J8XewasE2vx27m9DUDOlQdv0nYx5P6xi0r7zo/edit?usp=sharing"
+status = 301
+
