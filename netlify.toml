@@ -130,3 +130,8 @@ from = "/maturita/strava"
 to = "https://docs.google.com/spreadsheets/d/1M3RA_9J8XewasE2vx27m9DUDOlQdv0nYx5P6xi0r7zo/edit?usp=sharing"
 status = 301
 
+[[redirects]]
+from = "/waldorf/darky_ucitelum"
+to = "https://docs.google.com/spreadsheets/d/1hTW12U2gda417ukEXoLc65bhTh8aT0fxPP40YswjnCI/edit?usp=sharing"
+status = 301
+
