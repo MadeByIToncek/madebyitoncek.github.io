@@ -1,0 +1,78 @@
+baseurl = "https://itoncek.space"
+title = "IToncek.space"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "IToncek"
+  info = "Crazy astronomer & programmer guy"
+  description = "'s blog (or something like that)"
+  keywords = "blog,developer"
+  avatarurl = "https://cdn.discordapp.com/avatars/580098459802271744/c0b662788cc184d4a7e3fb900df1fe19.webp?size=1024"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2025
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/MadeByIToncek/"
+[[params.social]]
+  name = "BlueSky"
+  icon = "fa-brands fa-bluesky fa-2x"
+  weight = 2
+  url = "https://bsky.app/profile/itoncek.space"
+[[params.social]]
+  name = "Discord"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 3
+  url = "https://discord.gg/9dh5PYxtST"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 4
+  url = "https://www.instagram.com/itoncek/"
+[[params.social]]
+  name = "YouTube"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 5
+  url = "https://www.youtube.com/@ajtoncek"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
