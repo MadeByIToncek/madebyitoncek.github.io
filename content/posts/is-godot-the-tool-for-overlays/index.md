@@ -3,7 +3,7 @@
     "date": "2025-03-02T20:00:00+01:00",
     "draft": false,
     "cover": {
-        "image":"/posts/is-godot-the-tool-for-overlays/images/ift7-weather.png",
+        "image":"/posts/is-godot-the-tool-for-overlays/images/ift7-weather.jpg",
         "alt": "Screenshot from IFT-7' Weather forecast bit",
         "caption": "Weatherman IToncek in his natural habitat",
         "relative": false
@@ -19,7 +19,7 @@ So, I've been broadcasting for the past four years. Not regularily, but often. O
 [At first](https://github.com/MadeByIToncek/StarshipTools), I was using Java with javax.Swing and luma-keying the black background out in OBS. This worked but was kinda unstable and not really smooth. Swing is not made for realtime graphics, especially not at the Full-HD scale and it was lagging a lot. Even with these issues, I've still managed to deploy it for two broadcasts ([one](https://www.youtube.com/live/n0tpj6mC9RQ) and [two](https://youtu.be/4wju-RMFVp8)) and it worked pefectly.
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/first_broadcast.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/first_broadcast.jpg"
   alt="Picture from the second stream"
   caption="Picture from the second stream"
   class="ma0 w-75"
@@ -28,7 +28,7 @@ So, I've been broadcasting for the past four years. Not regularily, but often. O
 On stream, this looks really nice, as all the graphics change colors in-sync. This is done using multiple windows with StarshipTools, as you can see below:
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/StarshipTools.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/StarshipTools.jpg"
   alt="StarshipTools windows demo"
   caption="How I see & control the overlay during the broadcast."
   class="ma0 w-75"
@@ -39,7 +39,7 @@ You can see a few remnants from previous iterations, like the event bar at the t
 All of this was for the IFT-1 launch. After Starship launched, it took **half a year** until the next launch and **one and a half years** until the next broadcast.
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/ift5.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/ift5.jpg"
   alt="Screenshot from IFT-5"
   caption="Flight 5 stream"
   class="ma0 w-75"
@@ -52,7 +52,7 @@ I've written a [simple application](https://github.com/MadeByIToncek/StarshipOve
 The same overlay was used for the [broadcast](https://youtube.com/live/KUJS9QQEoJQ?feature=share) of Flight 7. But here, everything changes.
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/ift7.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/ift7.jpg"
   alt="Screenshot from IFT-7"
   caption="Flight 7 stream"
   class="ma0 w-75"
@@ -63,7 +63,7 @@ First, I've acquired a greenscreen. I've been thinking about this for a long tim
 I've been inspired by NasaSpaceFlight's weather forecast (Ryan the weather man 🌤) so I [made my own](https://github.com/MadeByIToncek/weather_station). It took me about two days to finish this project (for reference, previous projects took me usually more than a week), and it was really smooth in the transitions.
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/ift7-weather.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/ift7-weather.jpg"
   alt="Screenshot from IFT-7' Weather forecast bit"
   caption="Weatherman IToncek in his natural habitat"
   class="ma0 w-75"
@@ -87,7 +87,7 @@ This was somehow solved by the move to HTML, which supports transparency in OBS,
 So what is the solution? Godot's UI system. You can set Godot to transparent background and the UI system is really intuitive to develop in, it runs on C#, so you can do really anything in there and generally, it just works.
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/questionare_demo.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/questionare_demo.jpg"
   alt="Demo of the questionare tool"
   caption="Demo of the questionare tool. Mixed in OBS Studio, designed in Godot"
   class="ma0 w-75"

@@ -2,7 +2,7 @@
     "title": "Using Godot overlays in production",
     "date": "2025-08-14T15:10:00+02:00",
     "cover": {
-        "image":"/posts/godot-overlays-in-prod/images/au_2025_32.png",
+        "image":"/posts/godot-overlays-in-prod/images/au_2025_32.jpg",
         "alt": "Questionare (the name of that software) being used for generic polling.",
         "caption": "Questionare being used for polling during regular monday broadcasts.",
         "relative": false
@@ -20,7 +20,7 @@ But since then, I've managed to make a software, which is production-ready and *
 ## Meet [Questionare](https://github.com/MadeByIToncek/iQL-Questionare/).exe
 
 {{< figure
-  src="/posts/godot-overlays-in-prod/images/questionare_backgroundless.png"
+  src="/posts/godot-overlays-in-prod/images/questionare_backgroundless.jpg"
   alt="Questionare as I see it"
   caption="How I see & control the overlay."
   class="ma0 w-75"
@@ -31,7 +31,7 @@ But since then, I've managed to make a software, which is production-ready and *
 You had already seen Questionare in the previous [post](/posts/is-godot-the-tool-for-overlays/). First edition of this software was made for a regular broadcast session on 5. June, 2023. It was written in Java, rendered in FHD and captured by OBS. I'm not even sure whether I still have that source code but it was rought. 
 
 {{< figure
-  src="/posts/godot-overlays-in-prod/images/questionare_v-1.png"
+  src="/posts/godot-overlays-in-prod/images/questionare_v-1.jpg"
   alt="Original Questionare version"
   caption="Original Questionare version"
   class="ma0 w-75"
@@ -42,7 +42,7 @@ I've had a lot of trouble with capturing YouTube chat and transmitting it over w
 It would be used again, after a small rewrite on the 10. July, 2023. This time, it looked more similar to the modern version, thanks to the redesign, I did after the last stream.
 
 {{< figure
-  src="/posts/godot-overlays-in-prod/images/questionare_v0.png"
+  src="/posts/godot-overlays-in-prod/images/questionare_v0.jpg"
   alt="Questionare v0"
   caption="Questionare v0, now with colors!"
   class="ma0 w-75"
@@ -53,7 +53,7 @@ Yes, the colors were a bit more muted then and this tool was still using the Typ
 The next evolution of this tool would come during the autumn of 2024. I had just recently started playing with Godot and especially with the Mono edition, allowing me to write C# code within Godot's ecosystem. I was still a bit new in C# so it wasn't easy to write C#, but I managed to write my first graphics tool for broadcasting, the [WeatherStation](https://github.com/MadeByIToncek/weather_station).
 
 {{< figure
-  src="/posts/is-godot-the-tool-for-overlays/images/ift7-weather.png"
+  src="/posts/is-godot-the-tool-for-overlays/images/ift7-weather.jpg"
   alt="Screenshot from IFT-7' Weather forecast bit"
   caption="Weatherman IToncek in his natural habitat"
   class="ma0 w-75"
@@ -68,7 +68,7 @@ So I set my sight onto rewriting the chat library to C#. It is currently accessi
 Then, I designed a nice layout using ColorRects and Labels, which stayed almost in the same shape until the end.
 
 {{< figure
-  src="/posts/godot-overlays-in-prod/images/questionare_v1.png"
+  src="/posts/godot-overlays-in-prod/images/questionare_v1.jpg"
   alt="Questionare v0"
   caption="Questionare v1, not yet working but already lookin' great!"
   class="ma0 w-75"
@@ -79,7 +79,7 @@ Also, a big addition was the big block of text above the score bar. This explain
 After I had a basic design, I was ready to move onto the next step. Logic.
 
 {{< figure
-  src="/posts/godot-overlays-in-prod/images/questionare_v1_ui.png"
+  src="/posts/godot-overlays-in-prod/images/questionare_v1_ui.jpg"
   alt="Demo of the User Interface I made"
   caption="Simple, yet effective, user interface, I made for Questionare"
   class="ma0 w-75"
