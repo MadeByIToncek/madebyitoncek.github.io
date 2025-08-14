@@ -3,9 +3,9 @@
     "date": "2025-03-02T20:00:00+01:00",
     "draft": false,
     "cover": {
-        "image":"/posts/is-godot-the-tool-for-overlays/images/questionare_demo.png",
-        "alt": "One of my tools, that I made in Godot to help me broadcast",
-        "caption": "A tool, which I made for iQLANDIA",
+        "image":"/posts/is-godot-the-tool-for-overlays/images/ift7-weather.png",
+        "alt": "Screenshot from IFT-7' Weather forecast bit",
+        "caption": "Weatherman IToncek in his natural habitat",
         "relative": false
     },
     "categories": [

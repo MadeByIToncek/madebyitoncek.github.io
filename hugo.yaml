@@ -45,8 +45,6 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
 
   socialIcons:
     - name: instagram
