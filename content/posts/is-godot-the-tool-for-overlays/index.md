@@ -1,13 +1,19 @@
-+++
-categories = ['Cool stuff']
-tags = ['Streaming', 'Godot', 'Development']
-title = 'Is Godot *the* tool for overlays?'
-date = 2025-03-02T20:00:00+01:00
-cover.image = "/posts/is-godot-the-tool-for-overlays/images/questionare_demo.png"
-cover.alt = "One of my tools, that I made in Godot to help me broadcast"
-cover.caption = "A tool, which I made for iQLANDIA"
-cover.relative = false 
-+++
+{
+    "title": "Is Godot *the* tool for overlays?",
+    "date": "2025-03-02T20:00:00+01:00",
+    "draft": false,
+    "cover": {
+        "image":"/posts/is-godot-the-tool-for-overlays/images/ift7-weather.png",
+        "alt": "Screenshot from IFT-7' Weather forecast bit",
+        "caption": "Weatherman IToncek in his natural habitat",
+        "relative": false
+    },
+    "categories": [
+      "Cool stuff"
+    ],
+    "tags": ["Streaming", "Godot", "Development"]
+}
+
 So, I've been broadcasting for the past four years. Not regularily, but often. One thing, that I struggled with from the beginning was the overlays. 
 
 [At first](https://github.com/MadeByIToncek/StarshipTools), I was using Java with javax.Swing and luma-keying the black background out in OBS. This worked but was kinda unstable and not really smooth. Swing is not made for realtime graphics, especially not at the Full-HD scale and it was lagging a lot. Even with these issues, I've still managed to deploy it for two broadcasts ([one](https://www.youtube.com/live/n0tpj6mC9RQ) and [two](https://youtu.be/4wju-RMFVp8)) and it worked pefectly.
