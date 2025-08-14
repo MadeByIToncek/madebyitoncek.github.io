@@ -28,7 +28,7 @@ params:
   author: IToncek
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "02. 01. 2024"
+  DateFormat: "02. 01. 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
   ShowCodeCopyButtons: true
