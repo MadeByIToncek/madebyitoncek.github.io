@@ -6,10 +6,6 @@ theme: PaperMod
 
 enableRobotsTXT: true
 
-services:
-  googleAnalytics:
-    id: G-XXXXXXX
-
 minify:
   disableXML: false
   minifyOutput: true
