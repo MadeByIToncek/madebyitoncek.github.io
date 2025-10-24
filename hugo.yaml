@@ -32,6 +32,7 @@ params:
   defaultTheme: dark # dark, light
   disableThemeToggle: false
   ShowCodeCopyButtons: true
+  math: true
 
   # profile-mode
   profileMode:
@@ -83,6 +84,23 @@ menu:
       url: /about/
       weight: 30
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - '\['
+            - '\]'
+          - - $$
+            - $$
+          inline:
+          - - '\('
+            - '\)'
+          - - '$'
+            - '$'
+        enable: true
+  
 outputs:
   home:
   - html
